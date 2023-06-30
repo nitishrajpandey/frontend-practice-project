@@ -7,16 +7,12 @@
     grid-template-columns: auto;
     background-color: #e5e5fd;
     border: 1rem solid #1d1e4c;
-    background-color: blue;
     padding: 4rem 7rem;
   }
 }
 
 @media screen and (max-width: 1155px) {
-  .container{
 
-      background-color: rebeccapurple;
-  }
     .main-heading h1 {
     font-size: 3rem;
     font-weight: 600;
@@ -41,7 +37,6 @@
     background-color: #e5e5fd;
     border: 1rem solid #1d1e4c;
     padding: 3rem 2rem;
-    background-color: red;
   }
   .image_container {
     max-width: 300px;
@@ -59,7 +54,6 @@
   }
   .container {
     display:grid;
-    background-color: aqua;
     grid-template-columns: auto;
     background-color: #e5e5fd;
     border: 1rem solid #1d1e4c;
@@ -102,5 +96,13 @@
     text-transform: capitalize;
     padding-bottom: 2.5rem;
     font-weight: 510;
+  }
+  .about_us p {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    line-height: 3rem;
+    padding-bottom: 3rem;
+    text-align:left;
   }
 }
