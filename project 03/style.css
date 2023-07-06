@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* top conatainer style******************* */
+.container1{
+    width: 100%;
+    height: 100vh;
+}
+.container1 img{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    background-size: cover;
+    background-position: center;
+}
+.name_h1{
+    position: absolute;
+    color: #fff;
+    top:10%;
+    left: 22%;
+    color: #fff;
+    text-transform:capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+
+}
+.name_h1_span{
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+.skill_h1{
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    color: #fff;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 5vw;
+
+}
+
+
+/* headline container **********************/
+
+.headline_container{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+    padding: 30px;
+}
+.headline_container h2{
+    font-size: 4.8vw;
+    font-weight: 100;
+}
+.highlight{
+    font-weight: 800;
+    font-size: 5.8vw;
+}
+
+
+/* servies**************** */
+.myservice_container{
+    display: grid;
+    width: 80%;
+    margin: 50px auto;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 45px;
+}
+.service img{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.service h3{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.service p{
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-bottom: 55px;
+    font-size: 1.5vw;
+
+}
+
+.service{
+    border:none;
+    box-shadow: 5px 5px 15px #aaaaaa;
+    border-radius: 10px;
+}
+
+.service:hover{
+    transform: scale(1.09);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+/* footer******************** */
+
+
+.footer_section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.contact{
+    background-color: #515603;
+    color: #fff;
+    padding: 50px 35px;
+}
+.contact span{
+    font-size: 4.0vw;
+    text-transform: capitalize;
+}
+.contact p{
+    font-size: 1.5vw;
+    margin-bottom: 25px;
+}
+
+.about{
+    
+    background-color:#722300;
+    color: #fff;
+    padding: 50px 35px;
+}
+
+.about span{
+    font-size: 4.0vw;
+    text-transform: capitalize;
+}
+.about p{
+    font-size: 1.5vw;
+    margin-bottom: 25px;
+}
+/* footerbar **************************** */
+
+.footerbar{
+    grid-column-start:1 ;
+    grid-column-end:3 ;
+    text-align: center;
+    font-size: 1.8vw;
+    padding: 15px;
+    background-color: #000000;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+}

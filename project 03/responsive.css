@@ -1,0 +1,51 @@
+@media screen and (max-width:700px) {
+    
+    .myservice_container{
+        display:block;
+        width: 80%;
+        margin: 50px auto;
+        column-gap: 45px;
+    }
+    .service p{
+        padding-left: 20px;
+        padding-right: 50px;
+        padding-bottom: 55px;
+        font-size: 3.5vw;
+    
+    }
+    .service h3{
+        padding-left: 20px;
+        padding-bottom: 15px;
+        font-size: 4vw;
+    }
+    .service{
+        border:none;
+        box-shadow: 5px 5px 15px #aaaaaa;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+
+    .footer_section{
+        display: block;
+    }
+    .contact span{
+        font-size: 6.3vw;
+        text-transform: capitalize;
+    }
+    .contact p{
+        font-size: 3.5vw;
+        margin-bottom: 25px;
+    }
+    .about span{
+        font-size: 6.3vw;
+        text-transform: capitalize;
+    }
+    .about p{
+        font-size: 3.5vw;
+        margin-bottom: 25px;
+    }
+    .footerbar{
+        font-size: 3.3vw;
+    }
+
+}
