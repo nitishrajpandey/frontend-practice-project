@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="script.js" defer></script> 
+    <title>Document</title>
+</head>
+
+<body class="">
+    <!-- header start -->
+    <header class="">
+        <!-- navbar start -->
+        <nav class="z-30 sticky sm:static top-0 bg-gray-400 sm:bg-white m-auto w-full px-10 py-2 sm:py-0 sm:px-0  sm:w-[90%] sm:mt-7  flex justify-between">
+            <div>
+                <img class="w-28" src="images/logo.svg" alt="">
+            </div>
+            <div class="hidden sm:block sm:w-2/4 md:w-2/5 sm:self-center ">
+                <ul class="flex justify-evenly ">
+                    <li><a class="font-semibold text-lg capitalize hover:text-orange-600" href="">home</a></li>
+                    <li><a class="font-semibold text-lg capitalize hover:text-orange-600" href="">product</a></li>
+                    <li><a class="font-semibold text-lg capitalize hover:text-orange-600" href="">price</a></li>
+                    <li><a class="font-semibold text-lg capitalize hover:text-orange-600" href="">about</a></li>
+                </ul>
+            </div>
+
+            <div class="hidden sm:inline-block">
+                <img class="w-52" src="images/actions.svg" alt="">
+            </div>
+            <div class=" sm:hidden text-3xl cursor-pointer" data-hamburger="hamburger">
+                <i class="fa-solid fa-bars" style="color: #010409;"></i>
+            </div>
+        </nav>
+        <!-- navbar end -->
+        <!-- ********************************************************************************** -->
+
+        <!-- hero section -->
+        <div class=" sm:grid sm:grid-cols-2 md:grid-cols-[1.5fr,1fr] w-[90%] sm:w-[95%] md:w-[90%] m-auto">
+            <div class="mt-24 ">
+                <div>
+                    <span class="inline-block text-2xl md:text-3xl lg:text-4xl capitalize ">new product</span>
+                    <sup>
+                        <img class="inline-block w-10" src="images/circles.svg" alt="">
+                    </sup>
+                </div>
+
+
+                <div class="sm:hidden mt-5">
+                    <div class="relative sm:mt-32 md:mt-20 lg:mt-14">
+                        <img class=" " src="images/headphones.jpg" alt="">
+                        <img class="absolute bottom-28  w-24 " src="images/discount.svg" alt="">
+                        <div class="absolute bottom-32 pl-4  w-28">
+                            <h1 class="text-white">discount</h1>
+                            <h1 class="text-white text-4xl">50%</h1>
+                        </div>
+                    </div>
+    
+                    <div class="text-center">
+                        <span class="inline-block rounded-full w-5 h-5 bg-yellow-600"></span>
+                        <span class="inline-block rounded-full w-5 h-5 bg-red-600"></span>
+                        <span class="inline-block rounded-full w-5 h-5 bg-black"></span>
+                    </div>
+                    <div class="text-center mt-3">
+                        <button class="px-5 py-2 bg-[#FF4500] text-white font-medium rounded-full capitalize">add to
+                            cart</button>
+                    </div>
+                </div>
+
+
+
+                <div class="my-7">
+                    <h1 class="text-3xl md:text-5xl lg:text-7xl font-extrabold text-center sm:text-left">wireless headphone</h1>
+                </div>
+                <div class="ml-14 flex justify-center sm:block ">
+                    <ul class=" leading-10">
+                        
+                        <li class="font-semibold capitalize text-xl"><img class="inline pr-3" src="images/plus.png"">Clear Sound</li>
+                        <li class="font-semibold capitalize text-xl"><img class="inline pr-3" src="images/plus.png"">FM Function</li>
+                        <li class="font-semibold capitalize text-xl"><img class="inline pr-3" src="images/plus.png"">Up To 11 Hours Playtime</li>
+                    </ul>
+                </div>
+                <div class="my-8 text-sm text-gray-500 w-11/12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="sm:text-left text-center">
+                    <button
+                        class="px-4 py-2 text-lg font-medium capitalize bg-[#FF4500] text-white mr-3 md:mr-10 rounded-full">go
+                        shopping</button>
+                    <button class="px-4 py-2 text-lg font-medium capitalize bg-[#FF4500] text-white rounded-full">see
+                        catalog</button>
+                </div>
+            </div>
+            <!-- 2nd -->
+
+            <div class="hidden sm:block">
+                <div class="relative sm:mt-32 md:mt-20 lg:mt-14">
+                    <img class=" " src="images/headphones.jpg" alt="">
+                    <img class="absolute sm:bottom-20 lg:bottom-24 xl:bottom-28  w-24 " src="images/discount.svg" alt="">
+                    <div class="absolute sm:bottom-24 lg:bottom-28 xl:bottom-32 pl-5  w-28">
+                        <h1 class="text-white">discount</h1>
+                        <h1 class="text-white text-4xl">50%</h1>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <span class="inline-block rounded-full w-5 h-5 bg-yellow-600"></span>
+                    <span class="inline-block rounded-full w-5 h-5 bg-red-600"></span>
+                    <span class="inline-block rounded-full w-5 h-5 bg-black"></span>
+                </div>
+                <div class="text-center mt-3">
+                    <button class="px-5 py-2 bg-[#FF4500] text-white font-medium rounded-full capitalize">add to
+                        cart</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- hero section end -->
+    </header>
+    <!-- header end -->
+</body>
+
+
+</html>
