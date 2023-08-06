@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- npx tailwindcss -i ./src/input.css -o ./style.css --watch -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS LINK HERE -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- script file link -->
+    <script src="script.js" defer></script>
+
+    <!--Hamburger  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- title here -->
+    <title>Developer Landing page</title>
+
+
+</head>
+
+<body>
+    <!-- header start  -->
+    <header class="px-10 py-5 bg-blue-600">
+        <!-- navbar start -->
+        <nav class=" flex justify-between items-center">
+            <div>
+                <img class="w-28" src="./image/Logo.png" alt="">
+            </div>
+
+            <div class="absolute top-20 pl-10 bg-blue-400 md:bg-blue-600 md:static md:min-h-fit min-h-[60vh] left-0 md:w-auto w-full flex  opacity-0 md:opacity-100 duration-500 ease-in-out"
+                data-mobile-menu="">
+                <ul
+                    class="mx-auto text-center md:flex  md:justify-between  md:items-center  md:gap-7 py-4 md:py-0   text-white text-lg font-medium">
+                    <li class="py-4 md:py-0"><a class="hover:text-red-400 duration-500" href="">Home</a></li>
+                    <li class="py-4 md:py-0"><a class="hover:text-red-400 duration-500" href="">APIs</a></li>
+                    <li class="py-4 md:py-0"><a class="hover:text-red-400 duration-500" href="">Blogs</a></li>
+                    <li class="py-4 md:py-0"><a class="hover:text-red-400 duration-500" href="">Forums</a></li>
+                    <li class="py-4 md:py-0"><a class="hover:text-red-400 duration-500" href="">Login</a></li>
+                    <button
+                        class="px-6 py-2 bg-white text-purple-400 font-semibold rounded-md outline-none">Signup</button>
+                    <span class="hidden md:inline-block">
+                        <ion-icon name="search-outline" class="text-white text-4xl"></ion-icon>
+                    </span>
+                </ul>
+            </div>
+
+            <div class="inline-block md:hidden">
+                <span class="mr-1">
+                    <ion-icon name="search-outline" class="text-white text-4xl"></ion-icon>
+                </span>
+                <span class="" data-hamburger="">
+                    <ion-icon data-menu="Hamburger-Button" class="text-white inline-block md:hidden text-4xl "
+                        name="menu" onclick="Menu(this)"></ion-icon>
+                </span>
+            </div>
+        </nav>
+        
+    </header>
+</body>
+
+</html>
