@@ -579,14 +579,6 @@ video {
        column-gap: 2.5rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.overflow-y-hidden {
-  overflow-y: hidden;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
 }
@@ -679,10 +671,6 @@ video {
 @media (min-width: 640px) {
   .sm\:mb-10 {
     margin-bottom: 2.5rem;
-  }
-
-  .sm\:block {
-    display: block;
   }
 
   .sm\:inline-block {
